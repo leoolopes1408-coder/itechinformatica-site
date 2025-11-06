@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iTech Informática</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #0a0a0a;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00bfff;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center/cover no-repeat;
+      color: #fff;
+      padding: 100px 20px;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin: 20px 0;
+    }
+
+    .botao {
+      background-color: #00bfff;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .botao:hover {
+      background-color: #0090c5;
+    }
+
+    .servicos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 300px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #00bfff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>iTech Informática</h1>
+    <p>Assistência Técnica • Computadores • Notebooks • Instalações</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="inicio" class="hero">
+    <h2>Soluções rápidas e profissionais em tecnologia</h2>
+    <p>Formatamos, otimizamos e deixamos seu PC como novo!</p>
+    <a href="https://wa.me/5545999999999" target="_blank" class="botao">Falar no WhatsApp</a>
+  </section>
+
+  <section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <br>
+    <div class="servicos">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Formatação">
+        <h3>Formatação e Otimização</h3>
+        <p>Deixe seu computador mais rápido e limpo, como novo.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952" alt="Troca de peças">
+        <h3>Troca de Peças</h3>
+        <p>Upgrade de SSD, memória RAM e manutenção interna completa.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7" alt="Suporte remoto">
+        <h3>Suporte Remoto</h3>
+        <p>Resolvemos problemas de software direto pela internet, com segurança.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <p>📍 Medianeira - PR<br>
+    💬 WhatsApp: <a href="https://wa.me/5545999999999" target="_blank">Clique aqui</a><br>
+    📸 Instagram: <a href="https://www.instagram.com/itechinformatica" target="_blank">@itechinformatica</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 iTech Informática - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
